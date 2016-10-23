@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<root>
+	<faction species="Zerg">
+		<unit name="hatchery" type="base" img="hatchery.png">
+			<cost mineral="2"/>
+		</unit>
+		<unit name="overlord" type="transport" img="overlord.png">
+			<cost mineral="1"/>
+		</unit>
+		<unit name="drone" type="worker" img="drone.png">
+			<cost mineral="1"/>
+		</unit>
+		<unit name="Overmind" type="installation" img="Overmind.png">
+			<ability name="Overmind"/>
+		</unit>
+		<unit name="zergling" type="mobile" img="zergling.png">
+			<cost mineral="1"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="devourer" type="mobile" img="devourer.png">
+			<cost mineral="1"/>
+			<unitCost number="1" name="mutalisk"/>
+			<move type="flying"/>
+			<attack type="flying"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="defiler" type="mobile" img="defiler.png">
+			<cost gas="2"/>
+			<move type="ground"/>
+		</unit>
+		<unit name="guardian" type="mobile" img="guardian.png">
+			<cost gas="1"/>
+			<unitCost number="1" name="mutalisk"/>
+			<move type="flying"/>
+			<attack type="ground"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="hydralisk" type="mobile" img="hydralisk.png">
+			<cost mineral="1" gas="1"/>
+			<move type="ground"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="infested terran" type="mobile" img="infestedTerran.png">
+			<cost mineral="1"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<ability name="sacrifice"/>
+		</unit>
+		<unit name="lurker" type="mobile" img="lurker.png">
+			<cost mineral="1" gas="1"/>
+			<unitCost number="1" name="hydralisk"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="1"/>
+			<ability name="cloaking"/>
+		</unit>
+		<unit name="mutalisk" type="mobile" img="mutalisk.png">
+			<cost mineral="2" gas="1"/>
+			<move type="flying"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="queen" type="mobile" img="queen.png">
+			<cost gas="1"/>
+			<move type="flying"/>
+		</unit>
+		<unit name="scourge" type="mobile" img="scourge.png">
+			<cost gas="2"/>
+			<move type="flying"/>
+			<attack type="flying"/>
+			<support attack="1"/>
+			<ability name="sacrifice"/>
+		</unit>
+		<unit name="ultralisk" type="mobile" img="ultralisk.png">
+			<cost mineral="2" gas="2"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="2"/>
+		</unit>
+	</faction>
+
+	<faction species="Terran">
+		<unit name="command center" type="base" img="commandCenter.png">
+			<cost mineral="2"/>
+		</unit>
+		<unit name="dropship" type="transport" img="dropship.png">
+			<cost mineral="1"/>
+		</unit>
+		<unit name="SCV" type="worker" img="scv.png">
+			<cost mineral="1"/>
+		</unit>
+		<unit name="battlecruiser" type="mobile" img="battlecruiser.png">
+			<cost mineral="3" gas="2"/>
+			<move type="flying"/>
+			<attack type="all"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="firebat" type="mobile" img="firebat.png">
+			<cost mineral="1" gas="1"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="ghost" type="mobile" img="ghost.png">
+			<cost mineral="1" gas="1"/>
+			<move type="ground"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="goliath" type="mobile" img="goliath.png">
+			<cost mineral="2" gas="1"/>
+			<move type="ground"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="marines" type="mobile" img="marine.png">
+			<cost mineral="1"/>
+			<move type="ground"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="medic" type="mobile" img="medic.png">
+			<cost gas="1"/>
+			<move type="ground"/>
+		</unit>
+		<unit name="science vessel" type="mobile" img="scienceVessel.png">
+			<cost gas="2"/>
+			<move type="flying"/>
+		</unit>
+		<unit name="siege tank" type="mobile" img="siegeTank.png">
+			<cost mineral="2" gas="2"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="valkyrie" type="mobile" img="valkyrie.png">
+			<cost mineral="1" gas="2"/>
+			<move type="flying"/>
+			<attack type="flying"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="vulture" type="mobile" img="vulture.png">
+			<cost mineral="2"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="wraith" type="mobile" img="wraith.png">
+			<cost mineral="2" gas="1"/>
+			<move type="flying"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+	</faction>
+
+	<faction species="Protoss">
+		<unit name="nexus" type="base" img="nexus.png">
+			<cost mineral="2"/>
+		</unit>
+		<unit name="shuttle" type="transport" img="shuttle.png">
+			<cost mineral="1"/>
+		</unit>
+		<unit name="probe" type="worker" img="probe.png">
+			<cost mineral="1"/>
+		</unit>
+		<unit name="arbiter" type="mobile" img="arbiter.png">
+			<cost gas="2"/>
+			<move type="flying"/>
+		</unit>
+		<unit name="archon" type="mobile" img="archon.png">
+			<cost gas="2"/>
+			<unitCost number="2" name="high templar"/>
+			<move type="ground"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="carrier" type="mobile" img="carrier.png">
+			<cost mineral="3" gas="2"/>
+			<move type="flying"/>
+			<attack type="all"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="corsair" type="mobile" img="corsair.png">
+			<cost mineral="2" gas="1"/>
+			<move type="flying"/>
+			<attack type="flying"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="dark archon" type="mobile" img="darkArchon.png">
+			<unitCost number="" name="dark templar"/>
+			<move type="ground"/>
+		</unit>
+		<unit name="dark templar" type="mobile" img="darkTemplar.png">
+			<cost mineral="1" gas="2"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="1"/>
+			<ability name="cloaking"/>
+		</unit>
+		<unit name="high templar" type="mobile" img="highTemplar.png">
+			<cost gas="1"/>
+			<move type="ground"/>
+		</unit>
+		<unit name="dragoon" type="mobile" img="dragoon.png">
+			<cost mineral="2" gas="1"/>
+			<move type="ground"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="reaver" type="mobile" img="reaver.png">
+			<cost mineral="2" gas="2"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="2"/>
+		</unit>
+		<unit name="scout" type="mobile" img="scout.png">
+			<cost mineral="2" gas="2"/>
+			<move type="flying"/>
+			<attack type="all"/>
+			<support attack="1"/>
+		</unit>
+		<unit name="warpgate" type="installation" img="warpgate.png">
+			<ability name="warpgate"/>
+		</unit>
+		<unit name="zealot" type="mobile" img="zealot.png">
+			<cost mineral="2"/>
+			<move type="ground"/>
+			<attack type="ground"/>
+			<support attack="1"/>
+		</unit>
+	</faction>
+</root>

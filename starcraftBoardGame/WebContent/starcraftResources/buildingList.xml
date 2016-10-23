@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<root>
+	<faction species="Zerg">
+		<building number="1" level="1">
+			<unlock name="zergling"/>
+			<unlock name="hatchery"/>
+			<unlock name="overlord"/>
+			<unlock name="drone"/>
+		</building>
+		<building number="1" level="2">
+			<cost mineral="1"/>
+			<unlock name="hydralisk"/>
+		</building>
+		<building number="1" level="3">
+			<cost mineral="2"/>
+			<unlock name="ultralisk"/>
+		</building>
+		
+		<building number="2" level="1">
+			<cost gas="1"/>
+			<unlock name="queen"/>
+		</building>
+		<building number="2" level="2">
+			<cost mineral="1" gas="1"/>
+			<unlock name="defiler"/>
+		</building>
+		
+		<building number="3" level="1">
+			<cost mineral="2"/>
+			<unlock name="scourge"/>
+		</building>
+		<building number="3" level="2">
+			<cost mineral="1" gas="1"/>
+			<unlock name="mutalisk"/>
+		</building>
+	</faction>
+
+	<faction species="Terran">
+		<building number="1" level="1">
+			<unlock name="marines"/>
+			<unlock name="command center"/>
+			<unlock name="dropship"/>
+			<unlock name="SCV"/>
+		</building>
+		<building number="1" level="2">
+			<cost mineral="1"/>
+			<unlock name="firebat"/>
+			<unlock name="medic"/>
+		</building>
+		<building number="1" level="3">
+			<cost mineral="1" gas="1"/>
+			<unlock name="ghost"/>
+		</building>
+		
+		<building number="2" level="1">
+			<cost mineral="2"/>
+			<unlock name="vulture"/>
+		</building>
+		<building number="2" level="2">
+			<cost mineral="1" gas="1"/>
+			<unlock name="goliath"/>
+		</building>
+		<building number="2" level="3">
+			<cost mineral="1" gas="1"/>
+			<unlock name="siege tank"/>
+		</building>
+		
+		<building number="3" level="1">
+			<cost mineral="1" gas="1"/>
+			<unlock name="wraith"/>
+		</building>
+		<building number="3" level="2">
+			<cost mineral="1" gas="1"/>
+			<unlock name="science vessel"/>
+			<unlock name="valkyrie"/>
+		</building>
+		<building number="3" level="3">
+			<cost mineral="1" gas="1"/>
+			<unlock name="battlecruiser"/>
+		</building>
+	</faction>
+
+	<faction species="Protoss">
+		<building number="1" level="1">
+			<unlock name="zealot"/>
+			<unlock name="nexus"/>
+			<unlock name="shuttle"/>
+			<unlock name="probe"/>
+		</building>
+		<building number="1" level="2">
+			<cost mineral="1"/>
+			<unlock name="dragoon"/>
+		</building>
+		<building number="1" level="3">
+			<cost mineral="2"/>
+			<unlock name="dark templar"/>
+			<unlock name="high templar"/>
+		</building>
+		
+		<building number="2" level="1">
+			<cost gas="1"/>
+			<unlock name="corsair"/>
+		</building>
+		<building number="2" level="2">
+			<cost mineral="1" gas="1"/>
+			<unlock name="reaver"/>
+		</building>
+		
+		<building number="3" level="1">
+			<cost mineral="1" gas="1"/>
+			<unlock name="scout"/>
+		</building>
+		<building number="3" level="2">
+			<cost mineral="1" gas="1"/>
+			<unlock name="arbiter"/>
+		</building>
+		<building number="3" level="3">
+			<cost mineral="1" gas="1"/>
+			<unlock name="carrier"/>
+		</building>
+	</faction>
+</root>

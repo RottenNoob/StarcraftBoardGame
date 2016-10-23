@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<root>
+	<faction species="Zerg">
+		<card id="1">
+			<unit name="zergling"/>
+			<unit name="hydralisk"/>
+			<maxStat attack="5" health="5"/>
+			<minStat attack="1" health="6"/>
+		</card>
+		<card id="2">
+			<unit name="infested terran"/>
+			<unit name="scourge"/>
+			<maxStat attack="8" health="6"/>
+			<minStat attack="5" health="2"/>
+		</card>
+		<card id="3">
+			<unit name="zergling"/>
+			<maxStat attack="6" health="3"/>
+			<minStat attack="4" health="3"/>
+		</card>
+		<card id="4">
+			<unit name="mutalisk"/>
+			<maxStat attack="8" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="splash">
+				<enemy name="marines"/>
+				<enemy name="zergling"/>
+				<enemy name="zealot"/>
+			</ability>
+			<text>Splash damage. This splash damage can only kill a zergling, marine or zealot.</text>
+		</card>
+		<card id="5">
+			<unit name="zergling"/>
+			<unit name="hydralisk"/>
+			<maxStat attack="5" health="6"/>
+			<minStat attack="1" health="6"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="hydralisk"/>
+				<enemy name="flying"/>
+			</ability>
+			<text>An hydralisk gains +1 attack against flying units.</text>
+		</card>
+		<card id="6">
+			<unit name="infested terran"/>
+			<unit name="scourge"/>
+			<maxStat attack="7" health="5"/>
+			<minStat attack="5" health="2"/>
+		</card>
+		<card id="7">
+			<unit name="all"/>
+			<ability name="attackBonus" amount="1">
+			</ability>
+			<condition name="hasSupport"/>
+			<text>Gain +1 attack if you have at least one support unit.</text>
+		</card>
+		<card id="8">
+			<unit name="ultralisk"/>
+			<unit name="guardian"/>
+			<maxStat attack="8" health="8"/>
+			<minStat attack="5" health="2"/>
+			<ability name="healthBonus" amount="1">
+				<ally name="ultralisk"/>
+			</ability>
+			<text>An ultralisk gains +1 health.</text>
+		</card>
+		<card id="9">
+			<unit name="lurker"/>
+			<unit name="hydralisk"/>
+			<maxStat attack="6" health="6"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="hydralisk"/>
+				<enemy name="flying"/>
+			</ability>
+			<ability name="splash">
+				<ally name="lurker"/>
+				<enemy name="ground"/>
+			</ability>
+			<text>An hydralisk gains +1 attack against flying units. A lurker gains ground splash damage</text>
+		</card>
+		<card id="10">
+			<unit name="mutalisk"/>
+			<unit name="hydralisk"/>
+			<maxStat attack="7" health="6"/>
+			<minStat attack="2" health="5"/>
+		</card>
+		<card id="11">
+			<unit name="zergling"/>
+			<maxStat attack="5" health="4"/>
+			<minStat attack="4" health="3"/>
+		</card>
+		<card id="12">
+			<unit name="infested terran"/>
+			<unit name="scourge"/>
+			<maxStat attack="9" health="6"/>
+			<minStat attack="5" health="2"/>
+		</card>
+		<card id="13">
+			<unit name="all"/>
+			<ability name="attackBonus" amount="1">
+			</ability>
+			<condition name="hasSupport"/>
+			<text>Gain +1 attack if you have at least one support unit.</text>
+		</card>
+		<card id="14">
+			<unit name="mutalisk"/>
+			<unit name="devourer"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="3" health="4"/>
+			<ability name="splash">
+				<enemy name="marines"/>
+				<enemy name="zergling"/>
+				<enemy name="zealot"/>
+			</ability>
+			<ability name="attackBonus" amount="1">
+				<ally name="devourer"/>
+			</ability>
+			<text>A mutalisk gains splash damage that can only kill a zergling, marine or zealot. A devourer gains +1 attack.</text>
+		</card>
+		<card id="15">
+			<unit name="zergling"/>
+			<maxStat attack="4" health="5"/>
+			<minStat attack="4" health="3"/>
+		</card>
+		<card id="16">
+			<unit name="ultralisk"/>
+			<unit name="guardian"/>
+			<maxStat attack="8" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="healthBonus" amount="1">
+				<ally name="ultralisk"/>
+			</ability>
+			<text>An ultralisk gains +1 health.</text>
+		</card>
+		<card id="17">
+			<unit name="mutalisk"/>
+			<maxStat attack="7" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="splash">
+				<enemy name="marines"/>
+				<enemy name="zergling"/>
+				<enemy name="zealot"/>
+			</ability>
+			<text>Splash damage. This splash damage can only kill a zergling, marine or zealot.</text>
+		</card>
+		<card id="18">
+			<unit name="lurker"/>
+			<unit name="devourer"/>
+			<maxStat attack="8" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="healthBonus" amount="1">
+				<ally name="devourer"/>
+			</ability>
+			<ability name="splash">
+				<ally name="lurker"/>
+				<enemy name="ground"/>
+			</ability>
+			<text>A devourer gains +1 health. A lurker gains ground splash damage</text>
+		</card>
+		<card id="19">
+			<unit name="lurker"/>
+			<unit name="devourer"/>
+			<maxStat attack="7" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="healthBonus" amount="2">
+				<ally name="devourer"/>
+			</ability>
+			<ability name="splash">
+				<ally name="lurker"/>
+				<enemy name="ground"/>
+			</ability>
+			<text>A devourer gains +2 health. A lurker gains ground splash damage</text>
+		</card>
+		<card id="20">
+			<unit name="ultralisk"/>
+			<unit name="guardian"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="3" health="4"/>
+		</card>
+
+		
+	</faction>
+
+	<faction species="Terran">
+		<card id="1">
+			<unit name="battlecruiser"/>
+			<unit name="goliath"/>
+			<unit name="wraith"/>
+			<unit name="siege tank"/>
+			<unit name="valkyrie"/>
+			<unit name="vulture"/>
+			<ability name="healthBonus" amount="1">
+			</ability>
+			<ability name="useWorker">
+			</ability>
+			<text>Gain +1 health.</text>
+		</card>
+		<card id="2">
+			<unit name="battlecruiser"/>
+			<unit name="goliath"/>
+			<unit name="wraith"/>
+			<unit name="siege tank"/>
+			<unit name="valkyrie"/>
+			<unit name="vulture"/>
+			<ability name="healthBonus" amount="1">
+			</ability>
+			<ability name="useWorker">
+			</ability>
+			<text>Gain +1 health.</text>
+		</card>
+		<card id="3">
+			<unit name="goliath"/>
+			<unit name="valkyrie"/>
+			<maxStat attack="6" health="7"/>
+			<minStat attack="1" health="6"/>
+			<ability name="attackBonus" amount="2">
+				<enemy name="flying"/>
+			</ability>
+			<ability name="splash">
+				<ally name="valkyrie"/>
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain +2 attack against flying units. A valkyrie gains flying splash damage.</text>
+		</card>
+		<card id="4">
+			<unit name="valkyrie"/>
+			<maxStat attack="9" health="6"/>
+			<minStat attack="6" health="1"/>
+			<ability name="splash">
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain flying splash damage.</text>
+		</card>
+		<card id="5">
+			<unit name="goliath"/>
+			<unit name="siege tank"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="siege tank"/>
+			</ability>
+			<text>A siege tank gain +1 attack.</text>
+		</card>
+		<card id="6">
+			<unit name="vulture"/>
+			<unit name="siege tank"/>
+			<unit name="valkyrie"/>
+			<maxStat attack="7" health="7"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="siege tank"/>
+			</ability>
+			<text>A siege tank gain +1 attack.</text>
+		</card>
+		<card id="7">
+			<unit name="marines"/>
+			<unit name="firebat"/>
+			<unit name="ghost"/>
+			<maxStat attack="6" health="4"/>
+			<minStat attack="2" health="5"/>
+		</card>
+		<card id="8">
+			<unit name="marines"/>
+			<unit name="ghost"/>
+			<maxStat attack="5" health="4"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain +1 attack against flying units.</text>
+		</card>
+		<card id="9">
+			<unit name="marines"/>
+			<unit name="ghost"/>
+			<maxStat attack="5" health="5"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain +1 attack against flying units.</text>
+		</card>
+		<card id="10">
+			<unit name="marines"/>
+			<unit name="firebat"/>
+			<maxStat attack="6" health="6"/>
+			<minStat attack="3" health="4"/>
+			<ability name="splash">
+				<ally name="firebat"/>
+				<enemy name="marines"/>
+				<enemy name="zergling"/>
+				<enemy name="zealot"/>
+			</ability>
+			<text>A firebat gains splash damage against marines, zealots or zerglings.</text>
+		</card>
+		<card id="11">
+			<unit name="marines"/>
+			<unit name="firebat"/>
+			<maxStat attack="5" health="5"/>
+			<minStat attack="3" health="4"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="firebat"/>
+			</ability>
+			<ability name="splash">
+				<ally name="firebat"/>
+				<enemy name="marines"/>
+				<enemy name="zergling"/>
+				<enemy name="zealot"/>
+			</ability>
+			<text>A firebat gains +1 attack and splash damage against marines, zealots or zerglings.</text>
+		</card>
+		<card id="12">
+			<unit name="vulture"/>
+			<unit name="firebat"/>
+			<maxStat attack="6" health="5"/>
+			<minStat attack="4" health="3"/>
+			<ability name="splash">
+				<enemy name="marines"/>
+				<enemy name="zergling"/>
+				<enemy name="zealot"/>
+			</ability>
+			<text>Gain splash damage against marines, zealots or zerglings.</text>
+		</card>
+		<card id="13">
+			<unit name="vulture"/>
+			<unit name="firebat"/>
+			<maxStat attack="6" health="6"/>
+			<minStat attack="4" health="3"/>
+		</card>
+		<card id="14">
+			<unit name="vulture"/>
+			<unit name="ghost"/>
+			<maxStat attack="5" health="6"/>
+			<minStat attack="4" health="3"/>
+		</card>
+		<card id="15">
+			<unit name="goliath"/>
+			<unit name="wraith"/>
+			<maxStat attack="6" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="attackBonus" amount="2">
+				<ally name="goliath"/>
+				<enemy name="flying"/>
+			</ability>
+			<text>A goliath gains +2 attack against flying units.</text>
+		</card>
+		<card id="16">
+			<unit name="goliath"/>
+			<unit name="wraith"/>
+			<maxStat attack="6" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="attackBonus" amount="1">
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain +1 attack against flying units.</text>
+		</card>
+		<card id="17">
+			<unit name="battlecruiser"/>
+			<unit name="wraith"/>
+			<maxStat attack="7" health="7"/>
+			<minStat attack="4" health="3"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="battlecruiser"/>
+			</ability>
+			<text>A battlecruiser gains +1 attack.</text>
+		</card>
+		<card id="18">
+			<unit name="battlecruiser"/>
+			<unit name="wraith"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="4" health="3"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="battlecruiser"/>
+			</ability>
+			<ability name="healthBonus" amount="1">
+				<ally name="battlecruiser"/>
+			</ability>
+			<text>A battlecruiser gains +1 health and +1 attack.</text>
+		</card>
+		<card id="19">
+			<unit name="battlecruiser"/>
+			<unit name="siege tank"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="5" health="2"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="battlecruiser"/>
+			</ability>
+			<text>A battlecruiser gains +1 attack.</text>
+		</card>
+		<card id="20">
+			<unit name="battlecruiser"/>
+			<unit name="siege tank"/>
+			<maxStat attack="8" health="8"/>
+			<minStat attack="5" health="2"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="battlecruiser"/>
+			</ability>
+			<text>A battlecruiser gains +1 attack.</text>
+		</card>
+	</faction>
+
+	<faction species="Protoss">
+		<card id="1">
+			<unit name="dark templar"/>
+			<unit name="zealot"/>
+			<maxStat attack="6" health="7"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="dark templar"/>
+			</ability>
+			<text>A dark templar gains +1 attack.</text>
+		</card>
+		<card id="2">
+			<unit name="dark templar"/>
+			<unit name="zealot"/>
+			<unit name="corsair"/>
+			<maxStat attack="7" health="5"/>
+			<minStat attack="2" health="5"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="dark templar"/>
+			</ability>
+			<ability name="healthBonus" amount="2">
+				<ally name="dark templar"/>
+				<ally name="corsair"/>
+			</ability>
+			<text>A dark templar gains +1 attack. A corsair or dark templar gain +2 health.</text>
+		</card>
+		<card id="3">
+			<unit name="zealot"/>
+			<maxStat attack="5" health="6"/>
+			<minStat attack="2" health="5"/>
+		</card>
+		<card id="4">
+			<unit name="zealot"/>
+			<unit name="dragoon"/>
+			<maxStat attack="5" health="7"/>
+			<minStat attack="1" health="6"/>
+		</card>
+		<card id="5">
+			<unit name="zealot"/>
+			<unit name="dragoon"/>
+			<maxStat attack="6" health="6"/>
+			<minStat attack="1" health="6"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="dragoon"/>
+				<enemy name="flying"/>
+			</ability>
+			<text>A dragoon gains +1 attack against flying units.</text>
+		</card>
+		<card id="6">
+			<unit name="scout"/>
+			<unit name="dragoon"/>
+			<maxStat attack="8" health="7"/>
+			<minStat attack="3" health="4"/>
+		</card>
+		<card id="7">
+			<unit name="scout"/>
+			<unit name="dragoon"/>
+			<maxStat attack="7" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="attackBonus" amount="1">
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain +1 attack against flying units.</text>
+		</card>
+		<card id="8">
+			<unit name="scout"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="4" health="3"/>
+		</card>
+		<card id="9">
+			<unit name="scout"/>
+			<unit name="corsair"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="4" health="3"/>
+			<ability name="attackBonus" amount="1">
+				<enemy name="flying"/>
+			</ability>
+			<text>Gain +1 attack against flying units.</text>
+		</card>
+		<card id="10">
+			<unit name="carrier"/>
+			<unit name="reaver"/>
+			<maxStat attack="7" health="8"/>
+			<minStat attack="3" health="4"/>
+		</card>
+		<card id="11">
+			<unit name="carrier"/>
+			<unit name="reaver"/>
+			<maxStat attack="8" health="8"/>
+			<minStat attack="3" health="4"/>
+		</card>
+		<card id="12">
+			<unit name="archon"/>
+			<unit name="reaver"/>
+			<maxStat attack="8" health="8"/>
+			<minStat attack="2" health="5"/>
+			<ability name="splash">
+				<enemy name="ground"/>
+			</ability>
+			<text>Gain splash damage against ground units.</text>
+		</card>
+		<card id="13">
+			<unit name="archon"/>
+			<maxStat attack="9" health="8"/>
+			<minStat attack="5" health="2"/>
+			<ability name="splash">
+			</ability>
+			<text>Gain splash damage.</text>
+		</card>
+		<card id="14">
+			<unit name="archon"/>
+			<unit name="carrier"/>
+			<maxStat attack="9" health="8"/>
+			<minStat attack="5" health="2"/>
+			<ability name="splash">
+				<ally name="archon"/>
+			</ability>
+			<text>An archon gains splash damage.</text>
+		</card>
+		<card id="15">
+			<unit name="archon"/>
+			<unit name="carrier"/>
+			<maxStat attack="8" health="9"/>
+			<minStat attack="2" health="5"/>
+			<ability name="splash">
+				<ally name="archon"/>
+			</ability>
+			<text>An archon gains splash damage.</text>
+		</card>
+		<card id="16">
+			<unit name="reaver"/>
+			<maxStat attack="7" health="7"/>
+			<minStat attack="3" health="4"/>
+			<ability name="splash">
+				<enemy name="ground"/>
+			</ability>
+			<text>Gain splash damage against ground units.</text>
+		</card>
+		<card id="17">
+			<unit name="all"/>
+			<ability name="healthBonus" amount="1">
+			</ability>
+			<text>Gain +1 health.</text>
+		</card>
+		<card id="18">
+			<unit name="all"/>
+			<ability name="healthBonus" amount="1">
+			</ability>
+			<text>Gain +1 health.</text>
+		</card>
+		<card id="19">
+			<unit name="all"/>
+			<ability name="healthBonus" amount="1">
+			</ability>
+			<text>Gain +1 health.</text>
+		</card>
+		<card id="20">
+			<unit name="dark templar"/>
+			<unit name="corsair"/>
+			<maxStat attack="7" health="6"/>
+			<minStat attack="3" health="4"/>
+			<ability name="attackBonus" amount="1">
+				<ally name="corsair"/>
+				<enemy name="flying"/>
+			</ability>
+			<text>A corsair gain +1 attack against flying units.</text>
+		</card>
+	</faction>
+</root>

@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<root>
+	<faction name="Kerrigan">
+		<card age="1" name="Forward planning">
+				<itemBatch number="6" name="zergling"></itemBatch>
+				<itemBatch number="8" name="drone"></itemBatch>
+				<itemBatch number="2" name="overlord"></itemBatch>
+				<itemBatch number="2" name="hatchery"></itemBatch>
+			<text>You receive 2 bases instead of 1.</text>
+		</card>
+		<card age="1" name="A new rising power">
+				<itemBatch number="3" name="zergling"></itemBatch>
+				<itemBatch number="2" name="hydralisk"></itemBatch>
+				<itemBatch number="7" name="drone"></itemBatch>
+				<itemBatch number="1" name="overlord"></itemBatch>
+				<itemBatch number="1" name="hatchery"></itemBatch>
+			<specialEffect name="specialVictory"></specialEffect>
+			<text>Special victory : You win if you control at least 3 areas giving conquest points during the third age.</text>
+		</card>
+		<card age="1" name="Glipmse the future">
+				<itemBatch number="4" name="zergling"></itemBatch>
+				<itemBatch number="1" name="infested terran"></itemBatch>
+				<itemBatch number="9" name="drone"></itemBatch>
+				<itemBatch number="1" name="hatchery"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Place all z-axis. You place an overlord on each route leading to your base.</text>
+		</card>
+		
+		<card age="2" name="Hasten the end">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Draw 4 event cards.</text>
+		</card>
+		<card age="2" name="Sarah Kerrigan">
+				<itemBatch number="1" name="Kerrigan"></itemBatch>
+			<text>Place Kerrigan on a friendly zone. Kerrigan always use the major values of combat cards and doesn't have the sacrifice ability.</text>
+		</card>
+		
+		<card age="3" name="Deathblow">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Each time you reveal an order during the next action phase, you can execute a special move order instead. It doesn't count toward your special order limit.</text>
+		</card>
+		<card age="3" name="Subtle influence">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Choose a planet where you have more units than each single player. During the next planning phase, the other players can't place more than 1 order on this planet.</text>
+		</card>
+	</faction>
+	
+	
+	<faction name="Overmind">
+		<card age="1" name="Endless hunger">
+				<itemBatch number="1" name="zergling"></itemBatch>
+				<itemBatch number="2" name="hydralisk"></itemBatch>
+				<itemBatch number="9" name="drone"></itemBatch>
+				<itemBatch number="1" name="overlord"></itemBatch>
+				<itemBatch number="1" name="hatchery"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Add 1 gaz and 1 mineral to your base resources.</text>
+		</card>
+		<card age="1" name="The swarm">
+				<itemBatch number="4" name="zergling"></itemBatch>
+				<itemBatch number="1" name="hydralisk"></itemBatch>
+				<itemBatch number="8" name="drone"></itemBatch>
+				<itemBatch number="1" name="overlord"></itemBatch>
+				<itemBatch number="1" name="hatchery"></itemBatch>
+			<specialEffect name="specialVictory"></specialEffect>
+			<text>Special victory : You win if you have at least 3 bases during the third age.</text>
+		</card>
+		<card age="1" name="The Overmind">
+				<itemBatch number="3" name="zergling"></itemBatch>
+				<itemBatch number="2" name="hydralisk"></itemBatch>
+				<itemBatch number="7" name="drone"></itemBatch>
+				<itemBatch number="1" name="overlord"></itemBatch>
+				<itemBatch number="1" name="hatchery"></itemBatch>
+				<itemBatch number="1" name="Overmind"></itemBatch>
+			<text>Place an Overmind installation on a friendly zone. As long as the Overmind is in play, you gain one more conquest point per turn.</text>
+		</card>
+		
+		<card age="2" name="Cerebrate Doggath">
+			<itemBatch number="1" name="Doggath"></itemBatch>
+			<text>Place a Doggath installation on a friendly zone. As long as Doggath is in play, you place one more order during the start of the planning phase.</text>
+		</card>
+		<card age="2" name="Torrasque">
+			<itemBatch number="1" name="Torrasque"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Place a Torrasque ultralisk on a friendly zone. At the end of each regrouping phase, if Torrasque is dead, you can place it back on one of you bases.</text>
+		</card>
+		
+		<card age="3" name="The swarm flies">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Destroy up to one enemy transport on each navigation route.</text>
+		</card>
+		<card age="3" name="Teeming spawn">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Execute a build order on any planet. Afterward, all your workers become available again.</text>
+		</card>
+	</faction>
+	
+	
+	<faction name="Arcturus Mengsk">
+		<card age="1" name="Emperor Arcturus I">
+				<itemBatch number="3" name="marines"></itemBatch>
+				<itemBatch number="1" name="firebat"></itemBatch>
+				<itemBatch number="9" name="SCV"></itemBatch>
+				<itemBatch number="1" name="dropship"></itemBatch>
+				<itemBatch number="1" name="command center"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Choose which planets you receive. You can also choose the first player.</text>
+		</card>
+		<card age="1" name="Terran dominion">
+				<itemBatch number="2" name="marines"></itemBatch>
+				<itemBatch number="1" name="firebat"></itemBatch>
+				<itemBatch number="1" name="ghost"></itemBatch>
+				<itemBatch number="8" name="SCV"></itemBatch>
+				<itemBatch number="1" name="dropship"></itemBatch>
+				<itemBatch number="1" name="command center"></itemBatch>
+			<specialEffect name="specialVictory"></specialEffect>
+			<text>Special victory : You win if you control all the areas on two planets during the third age.</text>
+		</card>
+		<card age="1" name="The sons of Korhal">
+				<itemBatch number="3" name="marines"></itemBatch>
+				<itemBatch number="1" name="medic"></itemBatch>
+				<itemBatch number="1" name="goliath"></itemBatch>
+				<itemBatch number="7" name="SCV"></itemBatch>
+				<itemBatch number="1" name="dropship"></itemBatch>
+				<itemBatch number="1" name="command center"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>You can place a single star order during each planning phase. When you execute a star order, you replace it with any possible special or normal order.</text>
+		</card>
+		
+		<card age="2" name="The Norad II">
+			<itemBatch number="1" name="Norad"></itemBatch>
+			<text>Place a Norad battlecruiser on a friendly zone. the Norad has +1 health.</text>
+		</card>
+		<card age="2" name="Tactical mastery">
+			<text>Choose 2 areas that don't give conquest points. Those areas now give an additional conquest point on top of the other benefits it gave.</text>
+			<specialEffect name="cardEffect"></specialEffect>
+		</card>
+		
+		<card age="3" name="Terran civilization">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Ugrade all you building to the third level for free. Each time you reveal an order during the next action phase, you can execute a special build order instead. It doesn't count toward your special order limit.</text>
+		</card>
+		<card age="3" name="Scorched earth policy">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Place 2 battlecruisers or 2 siege tanks on a friendly zone. All your battlecruisers have the collateral damage ability</text>
+		</card>
+	</faction>
+	
+	
+	<faction name="Jim Raynor">
+		<card age="1" name="Storage facilities">
+				<itemBatch number="3" name="marines"></itemBatch>
+				<itemBatch number="1" name="vulture"></itemBatch>
+				<itemBatch number="9" name="SCV"></itemBatch>
+				<itemBatch number="1" name="dropship"></itemBatch>
+				<itemBatch number="1" name="command center"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Choose resources token of your choice. At start of each regrouping phase, gain up to 3 resource tokens of your choice for each available worker.</text>
+		</card>
+		<card age="1" name="Raynor's raiders">
+				<itemBatch number="2" name="marines"></itemBatch>
+				<itemBatch number="1" name="firebat"></itemBatch>
+				<itemBatch number="1" name="vulture"></itemBatch>
+				<itemBatch number="8" name="SCV"></itemBatch>
+				<itemBatch number="1" name="dropship"></itemBatch>
+				<itemBatch number="1" name="command center"></itemBatch>
+			<specialEffect name="specialVictory"></specialEffect>
+			<text>Special victory : You win if you control at least 6 resources areas during the third age.</text>
+		</card>
+		<card age="1" name="Covert operations">
+				<itemBatch number="3" name="marines"></itemBatch>
+				<itemBatch number="2" name="firebat"></itemBatch>
+				<itemBatch number="7" name="SCV"></itemBatch>
+				<itemBatch number="1" name="dropship"></itemBatch>
+				<itemBatch number="1" name="command center"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Place 3 ghosts on your reserve. Any ghost you build can be placed in your reserve. During mobilization on a planet, you can move any ghost from your reseve to this planet as if they were already on the planet</text>
+		</card>
+		
+		<card age="2" name="Jim Raynor">
+			<itemBatch number="1" name="Jim Raynor"></itemBatch>
+			<text>Place a Jim Raynor vulture on a friendly area. He has +2 health and gives +1 attack to all units in the battle.</text>
+		</card>
+		<card age="2" name="Make do with little">
+			<text>Each time you build, you can build a worker or transport for free. Each special order module d'ordre spécial and supply depot counts as 2.</text>
+			<specialEffect name="cardEffect"></specialEffect>
+		</card>
+		
+		<card age="3" name="To the bitter end">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>All your enemies lose 2 conquest points.</text>
+		</card>
+		<card age="3" name="Psi-disruptor">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Choose a planet where you have at least 1 unit. Every enemy units must leave this planet. They're destroyed if they are unable.</text>
+		</card>
+	</faction>
+	
+	
+	<faction name="Tassadar" species="Protoss" image="TassadarChoice.jpg">
+		<card age="1" name="Orbital platform">
+				<itemBatch number="1" name="zealot"></itemBatch>
+				<itemBatch number="1" name="dark templar"></itemBatch>
+				<itemBatch number="9" name="probe"></itemBatch>
+				<itemBatch number="1" name="shuttle"></itemBatch>
+				<itemBatch number="1" name="nexus"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Add 2 minerals to your base resources.</text>
+		</card>
+		<card age="1" name="Domination">
+				<itemBatch number="3" name="zealot"></itemBatch>
+				<itemBatch number="8" name="probe"></itemBatch>
+				<itemBatch number="1" name="shuttle"></itemBatch>
+				<itemBatch number="1" name="nexus"></itemBatch>
+			<specialEffect name="specialVictory"></specialEffect>
+			<text>Special victory : You win if you control more areas than each of you enemies during the third age.</text>
+		</card>
+		<card age="1" name="Warp gate">
+			<itemBatch number="1" name="dragoon"></itemBatch>
+			<itemBatch number="2" name="zealot"></itemBatch>
+			<itemBatch number="7" name="probe"></itemBatch>
+			<itemBatch number="1" name="shuttle"></itemBatch>
+			<itemBatch number="1" name="nexus"></itemBatch>
+			<itemBatch number="1" name="warpgate"></itemBatch>
+			<text>Place warp gate installation on a friendly area. At the end of each regrouping phase, you may place units from your warp gate to any friendly or empty area.</text>
+		</card>
+		
+		<card age="2" name="Ganthritor">
+			<itemBatch number="1" name="Ganthritor"></itemBatch>
+			<text>Place a Ganthritor carrier on a friendly area. Ganthritor has +1 health. When it is destroyed, you may destroy 1 unit, installation or base on the planet.</text>
+		</card>
+		<card age="2" name="Zeratul">
+				<itemBatch number="1" name="Zeratul"></itemBatch>
+			<text>Place a Zeratul dark templar on a friendly area. Zeratul has +1 health and +1 attack. At the start of a battle where Zeratul is involved, the enemy must destroy 1 friendly ground unit.</text>
+		</card>
+		
+		<card age="3" name="Ultimate sacrifice">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Sacrifice a unit and destroy all units in a chosen area from the same planet.</text>
+		</card>
+		<card age="3" name="Return to Aiur">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>Place 8 transports on any route. Your transports cannot be destroyed during the next turn.</text>
+		</card>
+	</faction>
+	
+	
+	<faction name="Aldaris" species="Protoss" image="AldarisChoice.jpg">
+		<card age="1" name="Riches of Aiur">
+				<itemBatch number="1" name="zealot"></itemBatch>
+				<itemBatch number="1" name="dragoon"></itemBatch>
+				<itemBatch number="9" name="probe"></itemBatch>
+				<itemBatch number="1" name="shuttle"></itemBatch>
+				<itemBatch number="1" name="nexus"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>At the end of each regrouping phase, you may restore up to 2 partially exhausted areas.Your areas can't be exhausted by your enemies.</text>
+		</card>
+		<card age="1" name="Predestined">
+			<itemBatch number="2" name="zealot"></itemBatch>
+			<itemBatch number="1" name="dragoon"></itemBatch>
+			<itemBatch number="7" name="probe"></itemBatch>
+			<itemBatch number="1" name="shuttle"></itemBatch>
+			<itemBatch number="1" name="nexus"></itemBatch>
+			<specialEffect name="cardEffect"></specialEffect>
+			<specialEffect name="specialVictory"></specialEffect>
+			<text>Special victory : You win if 2 "The end draws near" cards are drawn. Your enemies need 20 conquest points instead of 15 to win.</text>
+		</card>
+		<card age="1" name="Conclave fleet">
+			<itemBatch number="2" name="dragoon"></itemBatch>
+			<itemBatch number="8" name="probe"></itemBatch>
+			<itemBatch number="1" name="shuttle"></itemBatch>
+			<itemBatch number="1" name="nexus"></itemBatch>
+			<text>Whenever you build a unit, you may place it on reserve. When any mobilize order is revealed, you may move units from your reserve to a friendly area containing one of your bases.</text>
+		</card>
+		
+		<card age="2" name="Fenix">
+			<itemBatch number="1" name="Fenix"></itemBatch>
+			<text>Place a Fenix dragoon on a friendly area. Fenix can use both high templar and dragoon cards and has +2 health.</text>
+		</card>
+		<card age="2" name="Khala devotee">
+				<itemBatch number="1" name="Zeratul"></itemBatch>
+			<text>At the end of each planning phase, you may choose an order stack. Take the bottom order and place it on top.</text>
+		</card>
+		
+		<card age="3" name="The will of the conclave">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>During the next planning phase, you may place 2 orders each time you would place 1. You can't place more than 8 orders.</text>
+		</card>
+		<card age="3" name="Destiny">
+			<specialEffect name="cardEffect"></specialEffect>
+			<text>No one can win this during this regrouping phase.</text>
+		</card>
+	</faction>
+</root>
