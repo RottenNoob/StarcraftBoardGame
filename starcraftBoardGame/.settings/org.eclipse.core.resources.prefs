@@ -1,9 +1,0 @@
-eclipse.preferences.version=1
-encoding//src/dao/DAOFactory.java=UTF-8
-encoding//src/dao/DAOUtilitaire.java=UTF-8
-encoding//src/dao/UtilisateurDaoImpl.java=UTF-8
-encoding//src/filters/RestrictionFilter.java=UTF-8
-encoding//src/forms/ConnexionForm.java=UTF-8
-encoding//src/listener/InitialisationDaoFactory.java=UTF-8
-encoding//src/servlets/Connexion.java=UTF-8
-encoding/<project>=UTF-8
